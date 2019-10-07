@@ -1,0 +1,26 @@
+img{
+    border: 5px solid #ececec;
+    border-radius: 15px;
+}
+.pop-upp{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.9);
+    top: 0;
+    left: 0;
+    display:none
+}
+.inner {
+    width:50%;
+    height: 500px;
+    background-size:100% 100%
+}
+.fa-times{
+    position:absolute;
+    top:20px;
+    right:20px
+}
+.inner i{
+    font-size:50px
+}
